@@ -1,12 +1,8 @@
 package seedu.addressbook.commands;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
 import seedu.addressbook.data.person.ReadOnlyPerson;
+
+import java.util.*;
 
 /**
  * Finds and lists all persons in address book whose name contains any of the argument keywords.
@@ -42,15 +38,26 @@ public class FindCommand extends Command {
 
     /**
      * Retrieves all persons in the address book whose names contain some of the specified keywords.
+     * Find is case-insensitive
      *
      * @param keywords for searching
      * @return list of persons found
      */
     private List<ReadOnlyPerson> getPersonsWithNameContainingAnyKeyword(Set<String> keywords) {
+        final Set<String> upperCasedKeywords = new HashSet<String>();
+       for (String keyword : keywords) {
+           upperCasedKeywords.add(keyword.toUpperCase());
+        }
+
         final List<ReadOnlyPerson> matchedPersons = new ArrayList<>();
         for (ReadOnlyPerson person : addressBook.getAllPersons()) {
             final Set<String> wordsInName = new HashSet<>(person.getName().getWordsInName());
-            if (!Collections.disjoint(wordsInName, keywords)) {
+
+            final Set<String> upperCasedwordsInName = new HashSet<>();
+            for (String word : wordsInName) {
+                upperCasedwordsInName.add(word.toUpperCase());
+            }
+            if (!Collections.disjoint(upperCasedKeywords, upperCasedwordsInName)) {
                 matchedPersons.add(person);
             }
         }
