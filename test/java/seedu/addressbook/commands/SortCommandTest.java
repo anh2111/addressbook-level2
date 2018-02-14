@@ -1,7 +1,7 @@
 package seedu.addressbook.commands;
 
 import org.junit.Before;
-import org.testng.annotations.Test;
+import org.junit.Test;
 import seedu.addressbook.data.AddressBook;
 import seedu.addressbook.data.exception.IllegalValueException;
 import seedu.addressbook.data.person.*;
