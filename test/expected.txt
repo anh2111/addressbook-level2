@@ -291,6 +291,42 @@
 || 
 || 2 persons listed!
 || ===================================================
+|| Enter command: || [Command entered:  add Zero Brown p/111111 e/zero@gmail.com a/111, alpha street]
+|| New person added: Zero Brown Phone: 111111 Email: zero@gmail.com Address: 111, alpha street Tags: 
+|| ===================================================
+|| Enter command: || [Command entered:  add Two Brown p/111111 e/two@gmail.com a/111, beta street]
+|| New person added: Two Brown Phone: 111111 Email: two@gmail.com Address: 111, beta street Tags: 
+|| ===================================================
+|| Enter command: || [Command entered:  add One Brown p/111111 e/one@gmail.com a/111, gamma street]
+|| New person added: One Brown Phone: 111111 Email: one@gmail.com Address: 111, gamma street Tags: 
+|| ===================================================
+|| Enter command: || [Command entered:  list]
+|| 	1. Betsy Choo Tags: [secretive]
+|| 	2. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
+|| 	3. Zero Brown Phone: 111111 Email: zero@gmail.com Address: 111, alpha street Tags: 
+|| 	4. Two Brown Phone: 111111 Email: two@gmail.com Address: 111, beta street Tags: 
+|| 	5. One Brown Phone: 111111 Email: one@gmail.com Address: 111, gamma street Tags: 
+|| 
+|| 5 persons listed!
+|| ===================================================
+|| Enter command: || [Command entered:  sort]
+|| 	1. Betsy Choo Tags: [secretive]
+|| 	2. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
+|| 	3. One Brown Phone: 111111 Email: one@gmail.com Address: 111, gamma street Tags: 
+|| 	4. Two Brown Phone: 111111 Email: two@gmail.com Address: 111, beta street Tags: 
+|| 	5. Zero Brown Phone: 111111 Email: zero@gmail.com Address: 111, alpha street Tags: 
+|| 
+|| 5 persons listed!
+|| ===================================================
+|| Enter command: || [Command entered:  delete 3]
+|| Deleted Person: One Brown Phone: 111111 Email: one@gmail.com Address: 111, gamma street Tags: 
+|| ===================================================
+|| Enter command: || [Command entered:  delete 4]
+|| Deleted Person: Two Brown Phone: 111111 Email: two@gmail.com Address: 111, beta street Tags: 
+|| ===================================================
+|| Enter command: || [Command entered:  delete 5]
+|| Deleted Person: Zero Brown Phone: 111111 Email: zero@gmail.com Address: 111, alpha street Tags: 
+|| ===================================================
 || Enter command: || [Command entered:  clear]
 || Address book has been cleared!
 || ===================================================

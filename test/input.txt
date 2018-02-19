@@ -141,6 +141,26 @@
   list
 
 ##########################################################
+# test sort command
+##########################################################
+
+  # add new people
+  add Zero Brown p/111111 e/zero@gmail.com a/111, alpha street
+  add Two Brown p/111111 e/two@gmail.com a/111, beta street
+  add One Brown p/111111 e/one@gmail.com a/111, gamma street
+
+  # should list all people ordered by added time
+  list
+
+  # should sort and list all people ordered by name
+  sort
+
+  # delete recently added people
+  delete 3
+  delete 4
+  delete 5
+
+##########################################################
 # test clear command
 ##########################################################
 
