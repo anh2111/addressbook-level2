@@ -218,7 +218,7 @@
 || 1 persons listed!
 || ===================================================
 || Enter command: || [Command entered:  find Adam]
-|| 	1. Adam Brown Phone: 111111 Email: adam@gmail.com Address: 111, alpha street Tags:
+|| 	1. Adam Brown Phone: 111111 Email: adam@gmail.com Address: 111, alpha street Tags: 
 || 
 || 1 persons listed!
 || ===================================================
